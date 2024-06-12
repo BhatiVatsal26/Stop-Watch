@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    background: url("https://wallpapers.com/images/hd/4k-mountain-l3f04sogeaabr5h0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.head{
+    position: absolute;
+    top: 0;
+    color: rgb(255, 255, 255);
+    font-size: 50px
+}
+.container{
+    padding: 100px 0px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 0px 70px 0px 70px;
+    text-align: center;
+    width: 90%;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}
+#time{
+    position: relative;
+    top: -50px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.button{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px rgb(0, 0, 0);
+    margin: 0px 18px;
+    padding: 7px 50px;
+    cursor: pointer;
+    transition: 0.35s;
+}
+#start{
+    background-color: rgb(39, 255, 57);
+}
+#start:hover{
+    background-color: rgb(31, 169, 42);
+}
+#stop{
+    background-color: rgb(255, 57, 57);
+}
+#stop:hover{
+    background-color: rgb(149, 30, 30);
+}
+#reset{
+    background-color: rgb(32, 255, 255);
+}
+#reset:hover{
+    background-color: rgb(19, 141, 141);
+}
